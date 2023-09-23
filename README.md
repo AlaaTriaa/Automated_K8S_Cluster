@@ -10,11 +10,9 @@ Create a Kubernetes Cluster using kubeadm, Ansible, and Vagrant : 1 Master , 2 W
   - [Project Structure](#project-structure)
 - [Installation](#installation)
   - [Vagrant Setup](#vagrant-setup)
-  - [Ansible Configuration](#ansible-configuration)
-  - [Creating the Kubernetes Cluster](#creating-the-kubernetes-cluster)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -98,20 +96,21 @@ To set up the Kubernetes cluster, follow these installation steps:
    
 2.Change to the project directory:
 
-    ```bash
-    cd your-repo
-    ```
+```bash
+    cd Automated_K8s_Cluster
+```
 
 
 3. Modify the Vagrantfile in the project root to adjust the number of nodes and their configuration as needed.
 
 Start the Vagrant virtual machines:
-
+```bash
   vagrant up
+```
 
 
 
-4.Usage
+## Usage:
 You can now start using your Kubernetes cluster for development, testing, or experimentation. Use kubectl to interact with the cluster:
 
 ```bash
@@ -120,7 +119,7 @@ You can now start using your Kubernetes cluster for development, testing, or exp
     # ... and more
 ```
 
-5.Contributing
+## Contributing
 Contributions are welcome! If you have any improvements or suggestions for this project, please open an issue or create a pull request.
 
 
