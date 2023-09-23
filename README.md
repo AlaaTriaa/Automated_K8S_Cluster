@@ -83,8 +83,7 @@ The project directory structure is as follows:
         ├── tasks
         ├── templates
         └── vars
-
-
+```
 ## Installation
 
 To set up the Kubernetes cluster, follow these installation steps:
@@ -122,3 +121,5 @@ You can now start using your Kubernetes cluster for development, testing, or exp
 
 5.Contributing
 Contributions are welcome! If you have any improvements or suggestions for this project, please open an issue or create a pull request.
+
+
